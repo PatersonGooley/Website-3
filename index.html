@@ -1,1 +1,162 @@
-<h1>Hi!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #ff758c;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 10px auto;
+            display: block;
+        }
+        .services, .blog {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .services div, .blog div {
+            flex: 1 1 calc(33.333% - 20px);
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .services div h3, .blog div h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #ff758c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Sharing my journey, skills, and thoughts</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="hero">
+            <img src="your-photo.jpg" alt="Your photo">
+            <h2>About Me</h2>
+            <p>Hi! I'm [Your Name], a [profession or hobbyist] passionate about [your passion]. This is where I share my thoughts, projects, and how I can help you.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>What I Do</h2>
+        <div class="services">
+            <div>
+                <h3>Service 1</h3>
+                <p>Describe your first service or skill here.</p>
+            </div>
+            <div>
+                <h3>Service 2</h3>
+                <p>Describe your second service or skill here.</p>
+            </div>
+            <div>
+                <h3>Service 3</h3>
+                <p>Describe your third service or skill here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Recent Blog Posts</h2>
+        <div class="blog">
+            <div>
+                <h3>Blog Post 1</h3>
+                <p>A short description of your first blog post.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <h3>Blog Post 2</h3>
+                <p>A short description of your second blog post.</p>
+                <a href="#">Read more</a>
+            </div>
+            <div>
+                <h3>Blog Post 3</h3>
+                <p>A short description of your third blog post.</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Reach out via <a href="mailto:youremail@example.com">email</a> or connect with me on <a href="#">social media</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Paterson Gooley. Made with ❤️ and passion. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
+
